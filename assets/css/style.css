@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    opacity: 0.8;
+    text-align: center;
+    justify-content: space-around;
+    background: var(--neutral-1, #151C34);
+    width: 1920px;
+    height: 110px;
+    flex-shrink: 0;
+
+}
+.logo{
+    margin-right: 1990px;
+}
+.nav-menu{
+    padding-top: 25px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 60px;
+
+
+}
+.button{
+    display: flex;
+    font-size: large;
+
+}
+.body{
+    padding-top: 28px;
+}
+#img1{
+    width: 1920px;
+    height: 1040px;
+}
+
+.imgbd{
+    flex-direction: column;
+}
+.logo2{
+    padding-left: 100px;
+}
+.contact{
+    flex-direction: column;
+}
+.footer{
+    width: 1920px;
+    height: 252px;
+    background: var(--neutral-1, #151C34);
+    position: absolute;
+    color: var(--neutral-6, #FFF);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 140% */
+}
