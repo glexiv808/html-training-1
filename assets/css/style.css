@@ -13,9 +13,6 @@
     flex-shrink: 0;
 
 }
-.logo{
-    margin-right: 1990px;
-}
 .nav-menu{
     padding-top: 25px;
     display: inline-flex;
@@ -40,7 +37,7 @@
 .imgbd{
     flex-direction: column;
 }
-.logo2{
+#logo2{
     padding-left: 100px;
 }
 .contact{
