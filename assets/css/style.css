@@ -3,32 +3,28 @@
     padding: 0;
 }
 
-.header{
+header{
     opacity: 0.8;
-    text-align: center;
-    justify-content: space-around;
     background: var(--neutral-1, #151C34);
     width: 1920px;
     height: 110px;
     flex-shrink: 0;
-
+    position: fixed;
 }
-.nav-menu{
-    padding-top: 25px;
-    display: inline-flex;
-    align-items: flex-start;
+#logo{
+    padding-top: 29px;
+}
+.btn{
     gap: 60px;
-
-
+    text-decoration: none;
+    /* color: #8C8E96; */
+    align-content:center;
+    color: white;
+    font-size: 18px;
+    padding-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.button{
-    display: flex;
-    font-size: large;
 
-}
-.body{
-    padding-top: 28px;
-}
 #img1{
     width: 1920px;
     height: 1040px;
@@ -37,22 +33,79 @@
 .imgbd{
     flex-direction: column;
 }
-#logo2{
-    padding-left: 100px;
+.cta{
+    position: absolute;
+    padding: 50px;
 }
-.contact{
-    flex-direction: column;
+.img-a{
+    left: 100px;
+    top: 100px;
 }
+.grid{
+    width: 1600px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.grid__column-4{
+    padding-left: 10px;
+    padding-right: 300px;
+    width: 60;
+}
+.grid__column-6{
+    padding-left: 150px;
+    padding-right: 10px;
+    width: 1000px;
+}
+.grid__column-10{
+    width: 100%;
+
+}
+.post_img{
+    background-size: contain;
+    padding: 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 60px;
+}
+.post_name{
+    margin: 1px;
+}
+
+
 .footer{
     width: 1920px;
     height: 252px;
     background: var(--neutral-1, #151C34);
-    position: absolute;
     color: var(--neutral-6, #FFF);
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-family: Playfair Display;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 28px; /* 140% */
+    line-height: 30px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+.footer-item_icon{
+   text-decoration: none;
+}
+.footer__heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    text-decoration: underline ;
+}
+.footer-list{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-item_link{
+    text-decoration: none;
+    color: var(--neutral-5, #F0F0F0);
+    font-size: 16px;
+    display: flex;
+    align-content: center;
 }
