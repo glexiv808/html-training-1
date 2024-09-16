@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    opacity: 0.8;
+    background: var(--neutral-1, #151C34);
+    width: 1920px;
+    height: 110px;
+    flex-shrink: 0;
+    position: fixed;
+}
+#logo{
+    padding-top: 29px;
+}
+.btn{
+    gap: 60px;
+    text-decoration: none;
+    /* color: #8C8E96; */
+    align-content:center;
+    color: white;
+    font-size: 18px;
+    padding-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
